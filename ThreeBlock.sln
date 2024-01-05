@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ThreeBlock", "ThreeBlock\ThreeBlock.vcxproj", "{23011895-05E2-460E-A4E2-DBDC8892BDBB}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "blockSetup", "blockSetup\blockSetup.vdproj", "{12898471-16C9-4472-B954-1E5AB3188064}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23011895-05E2-460E-A4E2-DBDC8892BDBB}.Debug|x64.ActiveCfg = Debug|x64
+		{23011895-05E2-460E-A4E2-DBDC8892BDBB}.Debug|x64.Build.0 = Debug|x64
+		{23011895-05E2-460E-A4E2-DBDC8892BDBB}.Debug|x86.ActiveCfg = Debug|Win32
+		{23011895-05E2-460E-A4E2-DBDC8892BDBB}.Debug|x86.Build.0 = Debug|Win32
+		{23011895-05E2-460E-A4E2-DBDC8892BDBB}.Release|x64.ActiveCfg = Release|x64
+		{23011895-05E2-460E-A4E2-DBDC8892BDBB}.Release|x64.Build.0 = Release|x64
+		{23011895-05E2-460E-A4E2-DBDC8892BDBB}.Release|x86.ActiveCfg = Release|Win32
+		{23011895-05E2-460E-A4E2-DBDC8892BDBB}.Release|x86.Build.0 = Release|Win32
+		{12898471-16C9-4472-B954-1E5AB3188064}.Debug|x64.ActiveCfg = Debug
+		{12898471-16C9-4472-B954-1E5AB3188064}.Debug|x86.ActiveCfg = Debug
+		{12898471-16C9-4472-B954-1E5AB3188064}.Release|x64.ActiveCfg = Release
+		{12898471-16C9-4472-B954-1E5AB3188064}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B542EEF-EF1E-4B5F-A10F-459A27AE6F2C}
+	EndGlobalSection
+EndGlobal

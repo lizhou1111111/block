@@ -1,0 +1,4 @@
+﻿  Tetris.cpp
+E:\The Files\C++\Block\ThreeBlock\ThreeBlock\Tetris.cpp(35,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+E:\The Files\C++\Block\ThreeBlock\ThreeBlock\Tetris.cpp(188,11): warning C4244: 'initializing': conversion from 'unsigned __int64' to 'int', possible loss of data
+  ThreeBlock.vcxproj -> E:\The Files\C++\Block\ThreeBlock\x64\Debug\ThreeBlock.exe

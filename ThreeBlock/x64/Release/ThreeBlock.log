@@ -1,0 +1,47 @@
+﻿  Block.cpp
+E:\The Files\C++\Block\ThreeBlock\ThreeBlock\Block.cpp(13,3): error C2665: 'loadimage': no overloaded function could convert all the argument types
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(258,6): message : could be 'void loadimage(IMAGE *,LPCTSTR,int,int,bool)'
+E:\The Files\C++\Block\ThreeBlock\ThreeBlock\Block.cpp(13,3): message : 'void loadimage(IMAGE *,LPCTSTR,int,int,bool)': cannot convert argument 2 from 'const char [19]' to 'LPCTSTR'
+E:\The Files\C++\Block\ThreeBlock\ThreeBlock\Block.cpp(13,22): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+E:\The Files\C++\Block\ThreeBlock\ThreeBlock\Block.cpp(13,3): message : while trying to match the argument list '(IMAGE *, const char [19])'
+E:\The Files\C++\Block\ThreeBlock\ThreeBlock\Block.cpp(91,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\The Files\C++\Block\ThreeBlock\ThreeBlock\Block.cpp(92,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Main.cpp
+  Tetris.cpp
+E:\The Files\C++\Block\ThreeBlock\ThreeBlock\Tetris.cpp(32,2): error C2664: 'MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)': cannot convert argument 1 from 'const char [26]' to 'LPCWSTR'
+E:\The Files\C++\Block\ThreeBlock\ThreeBlock\Tetris.cpp(32,16): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\mciapi.h(87,1): message : see declaration of 'mciSendStringW'
+E:\The Files\C++\Block\ThreeBlock\ThreeBlock\Tetris.cpp(32,2): message : while trying to match the argument list '(const char [26], int, int, int)'
+E:\The Files\C++\Block\ThreeBlock\ThreeBlock\Tetris.cpp(35,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+E:\The Files\C++\Block\ThreeBlock\ThreeBlock\Tetris.cpp(40,2): error C2665: 'loadimage': no overloaded function could convert all the argument types
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(258,6): message : could be 'void loadimage(IMAGE *,LPCTSTR,int,int,bool)'
+E:\The Files\C++\Block\ThreeBlock\ThreeBlock\Tetris.cpp(40,2): message : 'void loadimage(IMAGE *,LPCTSTR,int,int,bool)': cannot convert argument 2 from 'const char [19]' to 'LPCTSTR'
+E:\The Files\C++\Block\ThreeBlock\ThreeBlock\Tetris.cpp(40,20): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+E:\The Files\C++\Block\ThreeBlock\ThreeBlock\Tetris.cpp(40,2): message : while trying to match the argument list '(IMAGE *, const char [19])'
+E:\The Files\C++\Block\ThreeBlock\ThreeBlock\Tetris.cpp(179,11): warning C4244: 'initializing': conversion from 'unsigned __int64' to 'int', possible loss of data
+E:\The Files\C++\Block\ThreeBlock\ThreeBlock\Tetris.cpp(232,3): error C2664: 'MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)': cannot convert argument 1 from 'const char [19]' to 'LPCWSTR'
+E:\The Files\C++\Block\ThreeBlock\ThreeBlock\Tetris.cpp(232,17): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\mciapi.h(87,1): message : see declaration of 'mciSendStringW'
+E:\The Files\C++\Block\ThreeBlock\ThreeBlock\Tetris.cpp(232,3): message : while trying to match the argument list '(const char [19], int, int, int)'
+E:\The Files\C++\Block\ThreeBlock\ThreeBlock\Tetris.cpp(273,2): error C2664: 'errno_t strcpy_s(char *,rsize_t,const char *)': cannot convert argument 1 from 'WCHAR [32]' to 'char *'
+E:\The Files\C++\Block\ThreeBlock\ThreeBlock\Tetris.cpp(273,12): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\string.h(32,30): message : see declaration of 'strcpy_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\string.h(124,1): message : could be 'errno_t strcpy_s(char (&)[_Size],const char *) throw()'
+E:\The Files\C++\Block\ThreeBlock\ThreeBlock\Tetris.cpp(273,2): message : 'errno_t strcpy_s(char (&)[_Size],const char *) throw()': expects 2 arguments - 3 provided
+E:\The Files\C++\Block\ThreeBlock\ThreeBlock\Tetris.cpp(273,2): message : while trying to match the argument list '(WCHAR [32], size_t, const wchar_t [15])'
+E:\The Files\C++\Block\ThreeBlock\ThreeBlock\Tetris.cpp(277,2): error C2665: 'outtextxy': no overloaded function could convert all the argument types
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(226,6): message : could be 'void outtextxy(int,int,TCHAR)'
+E:\The Files\C++\Block\ThreeBlock\ThreeBlock\Tetris.cpp(277,2): message : 'void outtextxy(int,int,TCHAR)': cannot convert argument 3 from 'char [32]' to 'TCHAR'
+E:\The Files\C++\Block\ThreeBlock\ThreeBlock\Tetris.cpp(277,22): message : There is no context in which this conversion is possible
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(225,6): message : or       'void outtextxy(int,int,LPCTSTR)'
+E:\The Files\C++\Block\ThreeBlock\ThreeBlock\Tetris.cpp(277,2): message : 'void outtextxy(int,int,LPCTSTR)': cannot convert argument 3 from 'char [32]' to 'LPCTSTR'
+E:\The Files\C++\Block\ThreeBlock\ThreeBlock\Tetris.cpp(277,22): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+E:\The Files\C++\Block\ThreeBlock\ThreeBlock\Tetris.cpp(277,2): message : while trying to match the argument list '(int, int, char [32])'
+E:\The Files\C++\Block\ThreeBlock\ThreeBlock\Tetris.cpp(287,2): error C2664: 'MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)': cannot convert argument 1 from 'const char [19]' to 'LPCWSTR'
+E:\The Files\C++\Block\ThreeBlock\ThreeBlock\Tetris.cpp(287,16): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\mciapi.h(87,1): message : see declaration of 'mciSendStringW'
+E:\The Files\C++\Block\ThreeBlock\ThreeBlock\Tetris.cpp(287,2): message : while trying to match the argument list '(const char [19], int, int, int)'
+E:\The Files\C++\Block\ThreeBlock\ThreeBlock\Tetris.cpp(288,2): error C2664: 'MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)': cannot convert argument 1 from 'const char [18]' to 'LPCWSTR'
+E:\The Files\C++\Block\ThreeBlock\ThreeBlock\Tetris.cpp(288,16): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\mciapi.h(87,1): message : see declaration of 'mciSendStringW'
+E:\The Files\C++\Block\ThreeBlock\ThreeBlock\Tetris.cpp(288,2): message : while trying to match the argument list '(const char [18], int, int, int)'
